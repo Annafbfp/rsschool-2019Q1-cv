@@ -1,0 +1,50 @@
+h1{
+    visibility: hidden;
+    margin-top: -20px;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    max-width: 1024px;
+    margin: 0 auto;
+    justify-content: space-around;
+
+    font-family: "Overpass", "Arial", sans-serif;
+}
+
+ol{
+    list-style: none;
+}
+
+span{
+    font-weight:bold;
+}
+.simple-text{
+    font-weight: normal;
+}
+img{
+    padding: 10px;
+    
+    border: 1px solid #586372;
+}
+
+.photo{
+    margin-top: 118px;
+}
+
+.content{
+    margin-right: 35px;
+}
+
+h2::after{
+    content: "";
+    float: right;
+    width: 808px;
+    height: 1px;
+    margin-top: 11px;
+    margin-right: 30px;
+
+    background-color: #586372;
+}
+
